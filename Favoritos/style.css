@@ -39,8 +39,12 @@ header {
 }
 
 .posicionamento_header img {
-    width: 20px;
-    height: 27px;
+    width: 35px;
+    height: 28px;
+}
+
+.posicionamento_header>span {
+    padding-left: 10px;
 }
 
 .logo {
@@ -73,8 +77,8 @@ header a {
     background-color: #E0EEEE;
     border: solid 2px #fdf9f900;
     border-radius: 10px;
-    width: 300px;
-    height: 32px;
+    width: 320px;
+    height: 31px;
 
 }
 
@@ -104,62 +108,87 @@ header a {
 }
 
 /* Banner principal */
-.banner-principal {
+.banner_principal {
     width: 100%;
+    height: 920px;
+    display: flex;
+
 }
 
-h1 {
+h2,
+h3 {
+    font-family: var(--font2);
     color: var(--amarelo);
-    font-size: 50px;
     text-align: center;
 }
 
-/* seção filmes e series  */
-.card-linha{
-    display: flex;
+h2 {
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+    height: 200px;
+    padding: 0;
 }
-.card>img{
+
+h3 {
+    padding: 28px;
+    font-size: 20px;
+}
+
+span {
+
+    color: var(--branco);
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/* seção filmes e series  */
+
+.card-linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card>img {
     height: 470px;
     width: 320px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
-
-
-
-
-
-/* .banner_s,
-.banner_f{
-    width: 1800px;
-    height: 930px;
-} */
-
-h2 {
-    font-size: 20px;
-    font-family: var(--font2);
+.card>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
+
 
 
 /* footer */
 
+
 .img-footer {
+    margin-top: 200px;
     width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 66.67%, #000000 100%), url(cinema_foto_pexels.jpg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.46);
 }
 
 ul {
     color: var(--branco);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
 }
 
-footer {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0C1556 100%);
+footer>div {
+    text-align: end;
 }
 
 .img-copy {
-    padding: 0 31em;
+    padding: 10px 46em;
 }
 
 .copyright {
