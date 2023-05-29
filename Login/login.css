@@ -104,21 +104,62 @@ header a {
 }
 
 
-.card_login {
-    border: 1px solid rgba(249, 241, 241, 0.021);
-    border-radius: 43px;
-    background-size: contain;
-    position: absolute;
-}
+/* card login */
 
-.btn_entrar{
-    background-color: var(--amarelo);
-    border: 4px solid var(--rosa);
-    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(25px);
-    padding: 8px 25px;
-    border-radius: 30%;
-}
+.login-container {
+  
+    max
+  max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    
+   
+  padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    
+    text
+  text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    
+   
+  width: 100%;
+    
+   
+  padding: 10px;
+    
+   
+  margin-bottom: 10px;
+    
+   
+  border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    
+   
+  padding: 10px;
+    
+   
+  background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
 
 /* footer */
 footer {
