@@ -66,7 +66,7 @@ header nav {
 }
 
 header a {
-    color: var(--branco);
+    color: var(--amarelo);
     text-transform: uppercase;
     text-decoration: none;
     font-family: var(--font1);
@@ -112,8 +112,8 @@ header a {
 
 /* Banner principal */
 .banner {
-    background-image: url("../img/banner/banner-\(amigos-assistindo\).jpg");
-    height: calc(100vh - 80px);
+    background-image: url("../img/banner/Frame\ 9.svg");
+    height: calc(153vh - 103px);
     background-size: cover;
     color: var(--branco);
     font-family: var(--font1);
@@ -142,13 +142,14 @@ h2 {
 }
 
 h3 {
+    color: var(--amarelo);
     padding: 28px;
     font-size: 20px;
 }
 
 span {
 
-    color: var(--branco);
+    color: var(--amarelo);
     font-size: 25px;
     text-align: center;
 }
@@ -190,7 +191,7 @@ span {
 }
 
 ul {
-    color: var(--branco);
+    color: var(--amarelo);
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -203,6 +204,8 @@ footer>div {
     color: var(--branco);
 }
 footer>div>span,p{
+    margin-top: 10px;
+    color: var(--amarelo);
     text-align: center;
 }
 
