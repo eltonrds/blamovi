@@ -113,7 +113,7 @@ header a {
 /* Banner principal */
 .banner {
     background-image: url("../img/banner/Frame\ 9.svg");
-    height: calc(153vh - 103px);
+    height: calc(140vh - 100px);
     background-size: cover;
     color: var(--branco);
     font-family: var(--font1);
@@ -122,11 +122,6 @@ header a {
     align-items: center;
 }
 
-.banner>div>img {
-    height: calc(100vh - 80px);
-    background-size: cover;
-    position: absolute;
-}
 
 /* destaque */
 
@@ -290,7 +285,7 @@ span {
 button[type="submit"] {
     margin-top: 5%;
     display: flex;
-    width: 16%;
+    width: 14%;
     padding: 20px;
     background-color: var(--amarelo);
     color: var(--preto);
